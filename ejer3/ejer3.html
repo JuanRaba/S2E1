@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banderas con HTML</title>
+	<style type="text/css">
+		.bandera{
+			width: 300px;
+			height: 200px;
+			margin: 20px;
+			border-width: 1px;
+			border-color: brown;
+			border-style: solid;
+			background-color: white;
+			box-sizing: border-box;
+			clear: both;
+		}
+		#dinamarca div{
+			background-color: white;
+		}
+		.circulo {
+			width: 80px;
+			height: 80px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+			background: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="bandera" id="españa">
+		<div style="background-color: red; width: 100%; height: 25%"></div>
+		<div style="background-color: yellow; width: 100%; height: 50%"></div>
+		<div style="background-color: purple; width: 100%; height: 25%"></div>
+	</div>
+	<div class="bandera" id="dinamarca" style="background-color: red">
+		<div style="width: 7%; height: 100%; float: left;margin-left: 30%"></div>
+		<div style="width: 100%; height: 8%; float: top;margin-top: 100px"></div>
+	</div>
+	
+	<div class="bandera" id="emiratos">
+		<div style="background-color: red; width: 25%; height: 100%; float: left;"></div>
+
+		<div style="background-color: green; width: 75%; height: 33%; float: left;"></div>
+		<div style="background-color: white; width: 75%; height: 34%; float: left;"></div>
+		<div style="background-color: black; width: 75%; height: 33%; float: left;"></div>
+	</div>
+
+	<div class="bandera" id="japon">
+		<div class="circulo" style="margin: auto; margin-top: 60px;"></div>
+	</div>
+
+</body>
+</html>
